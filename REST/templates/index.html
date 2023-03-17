@@ -1,0 +1,16 @@
+{% extends './layout.html' %}
+
+{% block title %}<title>data.titulo</title>{% endblock %}
+
+{% block body %}
+<h1>{{ data.bienvenida }}</h1>
+    {% if data.numMaterias > 0 %}
+    <ul>
+        {% for mat in data.materias %}
+        <li>{{ mat }}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <h2>No hay materias</h2>
+    {% endif %}
+{% endblock %}
