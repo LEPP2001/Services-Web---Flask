@@ -1,5 +1,6 @@
 # Services-Web---Flask
 ## Servicios Web Usando Flask en Python con las arquitecturas REST y SOAP
+Los pasos descritos en este documento son esenciales para la ejecución de los proyectos.
 
 ### Para instalar flask
  - Primero se debe abrir la linea de comandos
